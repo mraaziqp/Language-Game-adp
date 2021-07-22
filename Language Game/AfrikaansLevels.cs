@@ -22,7 +22,7 @@ namespace Language_Game
             AfrikaansLevel1 AL1 = new AfrikaansLevel1();
             AL1.Show();
             AfrikaansLevels AL = new AfrikaansLevels();
-            AL.Hide();
+            this.Hide();
         }  
         
         private void button2_Click(object sender, EventArgs e)
@@ -30,8 +30,14 @@ namespace Language_Game
             AfrikaansLevel2 AL2 = new AfrikaansLevel2();
             AL2.Show();
             AfrikaansLevels AL = new AfrikaansLevels();
-            AL.Hide();
+            this.Hide();
         }
-        
+
+        private void BackButton_Click(object sender, EventArgs e)
+        {
+            Languages Lp = new Languages();
+            Lp.Show();
+            this.Hide();
+        }
     }
 }

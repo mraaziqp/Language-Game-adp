@@ -167,5 +167,36 @@
   <ItemGroup>
     <None Include="bin\Debug\Photos\words.jfif" />
   </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\240_F_230307061_W3AAOhexkQjFgjwx0AhffaVi5VQcvpHI.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\240_F_323124237_SfGqpttZqU2mrMm61VPSWA2tKvc95l9O.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <COMReference Include="AxWMPLib">
+      <Guid>{6BF52A50-394A-11D3-B153-00C04F79FAA6}</Guid>
+      <VersionMajor>1</VersionMajor>
+      <VersionMinor>0</VersionMinor>
+      <Lcid>0</Lcid>
+      <WrapperTool>aximp</WrapperTool>
+      <Isolated>False</Isolated>
+    </COMReference>
+    <COMReference Include="WMPLib">
+      <Guid>{6BF52A50-394A-11D3-B153-00C04F79FAA6}</Guid>
+      <VersionMajor>1</VersionMajor>
+      <VersionMinor>0</VersionMinor>
+      <Lcid>0</Lcid>
+      <WrapperTool>tlbimp</WrapperTool>
+      <Isolated>False</Isolated>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </COMReference>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\iconfinder_172512_mute_icon_512px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\mute-unmute-icon-15.jpg" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

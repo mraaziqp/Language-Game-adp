@@ -63,6 +63,26 @@ namespace Language_Game.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap _240_F_230307061_W3AAOhexkQjFgjwx0AhffaVi5VQcvpHI {
+            get {
+                object obj = ResourceManager.GetObject("240_F_230307061_W3AAOhexkQjFgjwx0AhffaVi5VQcvpHI", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap _240_F_323124237_SfGqpttZqU2mrMm61VPSWA2tKvc95l9O {
+            get {
+                object obj = ResourceManager.GetObject("240_F_323124237_SfGqpttZqU2mrMm61VPSWA2tKvc95l9O", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap English {
             get {
                 object obj = ResourceManager.GetObject("English", resourceCulture);
@@ -83,6 +103,16 @@ namespace Language_Game.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap iconfinder_172512_mute_icon_512px {
+            get {
+                object obj = ResourceManager.GetObject("iconfinder_172512_mute_icon_512px", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap Language {
             get {
                 object obj = ResourceManager.GetObject("Language", resourceCulture);
@@ -96,6 +126,16 @@ namespace Language_Game.Properties {
         internal static System.Drawing.Bitmap mindset {
             get {
                 object obj = ResourceManager.GetObject("mindset", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap mute_unmute_icon_15 {
+            get {
+                object obj = ResourceManager.GetObject("mute-unmute-icon-15", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }

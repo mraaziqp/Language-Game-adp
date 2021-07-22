@@ -68,12 +68,12 @@ namespace Language_Game
                 case 1:
                     pictureBox1.Image = Properties.Resources.English;
 
-                    lblQuestion.Text = "What is the gender of baby Alexah?";
+                    lblQuestion.Text = "Which of the following is the longest word that appears in a play by William Shakespeare?";
 
-                    button1.Text = "Boy";
-                    button2.Text = "Girl";
-                    button3.Text = "Mixed";
-                    button4.Text = "Unknown";
+                    button1.Text = "antidisestablishmentarianism";
+                    button2.Text = "sesquipedalian";
+                    button3.Text = " honorificabilitudinitatibus";
+                    button4.Text = "incomprehensibleness";
 
                     correctAnswer = 2;
 
@@ -83,11 +83,11 @@ namespace Language_Game
 
                 case 2:
                     pictureBox1.Image = Properties.Resources.English;
-                    lblQuestion.Text = "How much did Alexah weigh at birth?";
-                    button1.Text = "3.5kg";
-                    button2.Text = "1.5kg";
-                    button3.Text = "3.2kg";
-                    button4.Text = "2.3kg";
+                    lblQuestion.Text = "Which one of the following words is an example of an isogram?";
+                    button1.Text = "racecar";
+                    button2.Text = "palindrome";
+                    button3.Text = "buffet";
+                    button4.Text = "destruction";
 
                     correctAnswer = 3;
 
@@ -97,13 +97,13 @@ namespace Language_Game
 
                 case 3:
                     pictureBox1.Image = Properties.Resources.English;
-                    lblQuestion.Text = "How often must a newborn baby be fed?";
-                    button1.Text = "Every 24 hours";
-                    button2.Text = "Every 3 hours";
-                    button3.Text = "Demand feeding";
-                    button4.Text = "Every 6 hours";
+                    lblQuestion.Text = "Which of the following terms refers to the substitution of a more offensive word or phrase for one considered less offensive?";
+                    button1.Text = "Eeuphemism";
+                    button2.Text = "dysphemism";
+                    button3.Text = "orthophemism";
+                    button4.Text = "neologism";
 
-                    correctAnswer = 3;
+                    correctAnswer = 4;
 
                     break;
 
@@ -111,11 +111,11 @@ namespace Language_Game
 
                 case 4:
                     pictureBox1.Image = Properties.Resources.English;
-                    lblQuestion.Text = "A baby needs milk to be healthy. Which of the following feeding methods will be good for a baby?";
-                    button1.Text = "Breast fed";
-                    button2.Text = "Cup fed";
-                    button3.Text = "Bottle fed";
-                    button4.Text = "All of the above";
+                    lblQuestion.Text = "In approximately how many countries does the English language have official or special status?";
+                    button1.Text = "67";
+                    button2.Text = "10";
+                    button3.Text = "80";
+                    button4.Text = "35";
 
                     correctAnswer = 4;
 
@@ -125,23 +125,23 @@ namespace Language_Game
 
                 case 5:
                     pictureBox1.Image = Properties.Resources.English;
-                    lblQuestion.Text = "A dad can assist with care of a newborn baby by doing the following:";
-                    button1.Text = "Rub out the winds after feeding";
-                    button2.Text = "Change the nappy";
-                    button3.Text = "Bath the baby";
-                    button4.Text = "All of the above";
+                    lblQuestion.Text = "Fill in the correctwords:'I’m not sure if I shut down the computer. I can’t really remember _______ it down.'";
+                    button1.Text = "have shut";
+                    button2.Text = "to shut";
+                    button3.Text = "shutting";
+                    button4.Text = "I shut";
 
-                    correctAnswer = 4;
+                    correctAnswer = 2;
 
                     break;
 
                 case 6:
                     pictureBox1.Image = Properties.Resources.English;
-                    lblQuestion.Text = "How often does a baby need burping?";
-                    button1.Text = "Never";
-                    button2.Text = "After eating";
-                    button3.Text = "Once a day";
-                    button4.Text = "Every three hours";
+                    lblQuestion.Text = "Which country contains the largest English-speaking population in the world?";
+                    button1.Text = "England";
+                    button2.Text = "China";
+                    button3.Text = "United States";
+                    button4.Text = "Australia";
 
                     correctAnswer = 2;
 
@@ -149,11 +149,11 @@ namespace Language_Game
 
                 case 7:
                     pictureBox1.Image = Properties.Resources.English;
-                    lblQuestion.Text = "How long does it take to give birth?";
-                    button1.Text = "10 hours";
-                    button2.Text = "5 minutes";
-                    button3.Text = "3 hours";
-                    button4.Text = "Differs between women";
+                    lblQuestion.Text = "Fill in the correct words for:(I asked Jane about the accident, but she _____ a word)";
+                    button1.Text = "wouldn't say";
+                    button2.Text = "didn't use to";
+                    button3.Text = "shouldn't say";
+                    button4.Text = "refused";
 
                     correctAnswer = 4;
 
@@ -161,11 +161,11 @@ namespace Language_Game
 
                 case 8:
                     pictureBox1.Image = Properties.Resources.English;
-                    lblQuestion.Text = "When would you know a baby is hungry or in need of burping?";
-                    button1.Text = "Stares at you";
-                    button2.Text = "Grips fist with a frown";
-                    button3.Text = "Cries";
-                    button4.Text = "button &2 and button &3";
+                    lblQuestion.Text = "The sentence Natasha is a friend of Joans and a client of Marlowe's contains two examples of which grammatical structure?";
+                    button1.Text = "double entendre";
+                    button2.Text = " double comparative";
+                    button3.Text = "double genitive";
+                    button4.Text = "double negative";
 
                     correctAnswer = 4;
 
@@ -173,11 +173,11 @@ namespace Language_Game
 
                 case 9:
                     pictureBox1.Image = Properties.Resources.English;
-                    lblQuestion.Text = "In which way was Alexah born";
-                    button1.Text = "Natural birth";
-                    button2.Text = "C-Section";
-                    button3.Text = "Induced Labour";
-                    button4.Text = "Amniotomy";
+                    lblQuestion.Text = "Fill in the correct words for :(Nobody should think they're above _____ )";
+                    button1.Text = "approach";
+                    button2.Text = "blame";
+                    button3.Text = "responsibility";
+                    button4.Text = "reproach";
 
                     correctAnswer = 1;
 
@@ -185,11 +185,11 @@ namespace Language_Game
 
                 case 10:
                     pictureBox1.Image = Properties.Resources.English;
-                    lblQuestion.Text = "At which time was Alexah born?";
-                    button1.Text = "02:50am";
-                    button2.Text = "16:39pm";
-                    button3.Text = "23:06pm";
-                    button4.Text = "12:19pm";
+                    lblQuestion.Text = "Which of the following is generally regarded as the first genuine dictionary in English?";
+                    button1.Text = "Dictionary of the English Language by Samuel Johnson";
+                    button2.Text = "The Elementarie by Richard Mulcaster";
+                    button3.Text = "A Table Alphabeticall by Robert Cawdrey";
+                    button4.Text = "Glossographia by Thomas Blount";
 
                     correctAnswer = 3;
 
@@ -197,6 +197,13 @@ namespace Language_Game
 
 
             }
+        }
+
+        private void BackButton_Click(object sender, EventArgs e)
+        {
+            EnglishLevels En2 = new EnglishLevels();
+            En2.Show();
+            this.Hide();
         }
     }
 }

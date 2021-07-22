@@ -22,7 +22,8 @@ namespace Language_Game
             EnglishLevel1 EL1 = new EnglishLevel1();
             EL1.Show();
             EnglishLevels EL = new EnglishLevels();
-            EL.Hide();
+            this.Hide();
+            
         }
 
         private void button2_Click(object sender, EventArgs e)
@@ -30,7 +31,14 @@ namespace Language_Game
             EnglishLevel2 EL2 = new EnglishLevel2();
             EL2.Show();
             EnglishLevels EL = new EnglishLevels();
-            EL.Hide();
+            this.Hide();
+        }
+
+        private void BackButton_Click(object sender, EventArgs e)
+        {
+            Languages F12 = new Languages();
+            F12.Show();
+            this.Hide();
         }
     }
 }

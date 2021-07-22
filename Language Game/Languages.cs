@@ -28,6 +28,7 @@ namespace Language_Game
             EL.Show();
             Languages L1 = new Languages();
             L1.Hide();
+            this.Hide();
         }
 
         private void button2_Click(object sender, EventArgs e)
@@ -36,6 +37,19 @@ namespace Language_Game
             AL.Show();
             Languages L1 = new Languages();
             L1.Hide();
+            this.Hide();
+        }
+
+        private void BackButton_Click(object sender, EventArgs e)
+        {
+            Form1 F12 = new Form1();
+            F12.Show();
+            this.Hide();
+        }
+
+        private void Mute_Click(object sender, EventArgs e)
+        {
+
         }
     }
 }

@@ -69,12 +69,12 @@ namespace Language_Game
                 case 1:
                     pictureBox1.Image = Properties.Resources.English;
 
-                    lblQuestion.Text = "What is the gender of baby Alexah?";
+                    lblQuestion.Text = "Which of the following is probably the most widely used English word throughout the world?";
 
-                    button1.Text = "Boy";
-                    button2.Text = "Girl";
-                    button3.Text = "Mixed";
-                    button4.Text = "Unknown";
+                    button1.Text = "Good";
+                    button2.Text = "Hello";
+                    button3.Text = "Okay";
+                    button4.Text = "House";
 
                     correctAnswer = 2;
 
@@ -84,11 +84,11 @@ namespace Language_Game
 
                 case 2:
                     pictureBox1.Image = Properties.Resources.English;
-                    lblQuestion.Text = "How much did Alexah weigh at birth?";
-                    button1.Text = "3.5kg";
-                    button2.Text = "1.5kg";
-                    button3.Text = "3.2kg";
-                    button4.Text = "2.3kg";
+                    lblQuestion.Text = "Fill in the correct word.'If he_____ phone, tell him to ring back later'";
+                    button1.Text = "Can";
+                    button2.Text = "Should";
+                    button3.Text = "Might";
+                    button4.Text = "Will";
 
                     correctAnswer = 3;
 
@@ -98,11 +98,11 @@ namespace Language_Game
 
                 case 3:
                     pictureBox1.Image = Properties.Resources.English;
-                    lblQuestion.Text = "How often must a newborn baby be fed?";
-                    button1.Text = "Every 24 hours";
-                    button2.Text = "Every 3 hours";
-                    button3.Text = "Demand feeding";
-                    button4.Text = "Every 6 hours";
+                    lblQuestion.Text = "How many words do you think there are in the English language?";
+                    button1.Text = "200 000";
+                    button2.Text = "500 000";
+                    button3.Text = "1 000 000 +";
+                    button4.Text = "10 000";
 
                     correctAnswer = 3;
 
@@ -112,11 +112,11 @@ namespace Language_Game
 
                 case 4:
                     pictureBox1.Image = Properties.Resources.English;
-                    lblQuestion.Text = "A baby needs milk to be healthy. Which of the following feeding methods will be good for a baby?";
-                    button1.Text = "Breast fed";
-                    button2.Text = "Cup fed";
-                    button3.Text = "Bottle fed";
-                    button4.Text = "All of the above";
+                    lblQuestion.Text = "Provide the correct adjective for the given sentence:'Andrea had a ________ in her hair yesterday'";
+                    button1.Text = "nice yellow bow";
+                    button2.Text = "Yellow nice bow";
+                    button3.Text = "Bow yellow nice";
+                    button4.Text = "None of the above";
 
                     correctAnswer = 4;
 
@@ -126,11 +126,11 @@ namespace Language_Game
 
                 case 5:
                     pictureBox1.Image = Properties.Resources.English;
-                    lblQuestion.Text = "A dad can assist with care of a newborn baby by doing the following:";
-                    button1.Text = "Rub out the winds after feeding";
-                    button2.Text = "Change the nappy";
-                    button3.Text = "Bath the baby";
-                    button4.Text = "All of the above";
+                    lblQuestion.Text = "Fill in the correct word:'My sister really gets a ____ out of singing in public'";
+                    button1.Text = "Buzz";
+                    button2.Text = "Fun";
+                    button3.Text = "Pleasure";
+                    button4.Text = "Blush";
 
                     correctAnswer = 4;
 
@@ -138,11 +138,11 @@ namespace Language_Game
 
                 case 6:
                     pictureBox1.Image = Properties.Resources.English;
-                    lblQuestion.Text = "How often does a baby need burping?";
-                    button1.Text = "Never";
-                    button2.Text = "After eating";
-                    button3.Text = "Once a day";
-                    button4.Text = "Every three hours";
+                    lblQuestion.Text = "What should be at the end of a sentence?";
+                    button1.Text = "Comma";
+                    button2.Text = "Capital Letter";
+                    button3.Text = "Full stop";
+                    button4.Text = "Elipse";
 
                     correctAnswer = 2;
 
@@ -150,11 +150,11 @@ namespace Language_Game
 
                 case 7:
                     pictureBox1.Image = Properties.Resources.English;
-                    lblQuestion.Text = "How long does it take to give birth?";
-                    button1.Text = "10 hours";
-                    button2.Text = "5 minutes";
-                    button3.Text = "3 hours";
-                    button4.Text = "Differs between women";
+                    lblQuestion.Text = "Fill in the correct words:'If you _____ mind waiting, I'll call and check if Mr Owen is in'";
+                    button1.Text = "Wouldn't";
+                    button2.Text = "do";
+                    button3.Text = "will";
+                    button4.Text = "could";
 
                     correctAnswer = 4;
 
@@ -162,11 +162,11 @@ namespace Language_Game
 
                 case 8:
                     pictureBox1.Image = Properties.Resources.English;
-                    lblQuestion.Text = "When would you know a baby is hungry or in need of burping?";
-                    button1.Text = "Stares at you";
-                    button2.Text = "Grips fist with a frown";
-                    button3.Text = "Cries";
-                    button4.Text = "button &2 and button &3";
+                    lblQuestion.Text = "Provide the correct adjective for the given sentence:'We met ________ people at the conference'";
+                    button1.Text = "two very smart";
+                    button2.Text = "Very smart two";
+                    button3.Text = "None of the above";
+                    button4.Text = "two smart";
 
                     correctAnswer = 4;
 
@@ -174,11 +174,11 @@ namespace Language_Game
 
                 case 9:
                     pictureBox1.Image = Properties.Resources.English;
-                    lblQuestion.Text = "In which way was Alexah born";
-                    button1.Text = "Natural birth";
-                    button2.Text = "C-Section";
-                    button3.Text = "Induced Labour";
-                    button4.Text = "Amniotomy";
+                    lblQuestion.Text = "The first letter of the first word in a sentence should be?";
+                    button1.Text = "Small Letter";
+                    button2.Text = "Big Letter";
+                    button3.Text = "Large Letter";
+                    button4.Text = "Capital Letetr";
 
                     correctAnswer = 1;
 
@@ -186,13 +186,13 @@ namespace Language_Game
 
                 case 10:
                     pictureBox1.Image = Properties.Resources.English;
-                    lblQuestion.Text = "At which time was Alexah born?";
-                    button1.Text = "02:50am";
-                    button2.Text = "16:39pm";
-                    button3.Text = "23:06pm";
-                    button4.Text = "12:19pm";
+                    lblQuestion.Text = "Fill in the correct word:'My parents suggested ______ apply for the job'";
+                    button1.Text = "me to";
+                    button2.Text = "if I";
+                    button3.Text = "that I";
+                    button4.Text = "Should I";
 
-                    correctAnswer = 3;
+                    correctAnswer = 2;
 
                     break;
 
@@ -206,6 +206,23 @@ namespace Language_Game
         }
 
         private void EnglishLevel1_Load(object sender, EventArgs e)
+        {
+
+        }
+
+        private void BackButton_Click(object sender, EventArgs e)
+        {
+            EnglishLevels Levl = new EnglishLevels();
+            Levl.Show();
+            this.Hide();
+        }
+
+        private void label1_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void lblQuestion_Click(object sender, EventArgs e)
         {
 
         }
